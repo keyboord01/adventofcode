@@ -44,15 +44,15 @@ void calculateDiff() {
 }
 
 int main() {
-  FILE *fptr = fopen("input.txt", "r");
+  FILE* fptr = fopen("input.txt", "r");
   size_t size = 256;
-  char *line = NULL;
+  char* line = NULL;
   ssize_t nread;
 
 
   while ((nread = getline(&line, &size, fptr)) != -1) {
     {
-      char *num = strtok(line, "   ");
+      char* num = strtok(line, "   ");
       leftNums[arrSize] = atoi(num);
       num = strtok(NULL, "   ");
       rightNums[arrSize] = atoi(num);
