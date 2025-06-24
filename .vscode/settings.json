@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    ".env*": "dotenv",
+    ".envrc": "dotenv",
+    "bun.lock": "jsonc",
+    "biome.json": "jsonc",
+    "*.css": "tailwindcss",
+    ".vscode/*.json": "jsonc",
+    "regex.h": "c"
+  }
+}
